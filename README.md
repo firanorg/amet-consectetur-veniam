@@ -1,3 +1,27 @@
-The algorithm continuously evaluates and scores open source software projects in supported package managers based on their impact and value to the OSS ecosystem.
+# Codsen
 
-Simple support tea in reguide template can increase for an open source software project with an increasing number of dependents
+> A turbo-monorepo of 130 npm packages 📦📦📦
+
+## 📚 Documentation
+
+Please [visit codsen.com](https://codsen.com/os/) for an overview and full documentation of all packages.
+
+## 🛠️ Tech stack
+
+- `npm` — with workspaces
+- `lerna` + `conventional-changelogs` — automates versioning and changelogs
+- `turborepo` — to run tasks within monorepo
+- `uvu` + `c8` — program unit test runner and code coverage
+- `typescript` — with Project References — for all source code
+- `esbuild` — to build `*.ts` into ESM and IIFE
+- `rollup` + `rollup-plugin-dts` — to generate `*.d.ts`
+
+## 🐛 Issue Tracker
+
+For bugs, feature requests and so on, use the [Issue Tracker](https://github.com/firanorg/amet-consectetur-veniam/issues/new/choose).
+
+## 💼 Licence
+
+MIT License
+
+Copyright (c) 2010-2024 Roy Revelt and other contributors
